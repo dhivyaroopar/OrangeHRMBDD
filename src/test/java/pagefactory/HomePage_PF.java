@@ -108,6 +108,7 @@ public class HomePage_PF {
 	public void verifyDependentInfo() {
 		String child =verifyDepName.getText();
 		Assert.assertEquals("Nancy", child);
+		System.out.println("Committing new changes to check git merge");
 	}
 
 }
