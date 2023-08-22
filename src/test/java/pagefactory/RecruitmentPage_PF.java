@@ -178,6 +178,7 @@ public class RecruitmentPage_PF {
 	public void verifyStatus() {
 		String status =finalStatus.getText();
 		Assert.assertEquals("Hired", status);
+		System.out.println("Status verified");
 	}
 
 }

@@ -28,6 +28,7 @@ public class LoginPage_PF {
 	}
 	public void clickOnLogin() {
 		LoginBtn.click();
+		System.out.println("Succesfully logged in");
 	}
 	
 	
